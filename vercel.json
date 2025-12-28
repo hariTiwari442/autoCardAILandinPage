@@ -1,6 +1,14 @@
 {
   "rewrites": [
     {
+      "source": "/app/static/:path*",
+      "destination": "https://leadscanfrontend.netlify.app/static/:path*"
+    },
+    {
+      "source": "/app/manifest.json",
+      "destination": "https://leadscanfrontend.netlify.app/manifest.json"
+    },
+    {
       "source": "/app/:path*",
       "destination": "https://leadscanfrontend.netlify.app/app/:path*"
     }
