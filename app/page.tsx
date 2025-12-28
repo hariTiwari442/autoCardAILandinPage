@@ -33,8 +33,18 @@ export default function LeadScannerLanding() {
     return () => observer.disconnect();
   }, []);
 
-  const AnimatedCounter = ({ end, suffix = "", color = "text-blue-600" }) => {
-    const [count, setCount] = useState(0);
+  type AnimatedCounterProps = {
+    end: string;
+    suffix?: string;
+    color?: string;
+  };
+
+  const AnimatedCounter: React.FC<AnimatedCounterProps> = ({
+    end,
+    suffix = "",
+    color = "text-blue-600",
+  }: AnimatedCounterProps) => {
+    const [count, setCount] = useState<number>(0);
 
     useEffect(() => {
       if (!statsVisible) return;
@@ -61,7 +71,7 @@ export default function LeadScannerLanding() {
       requestAnimationFrame(animate);
     }, [statsVisible, end]);
 
-    const formatNumber = (num) => {
+    const formatNumber = (num: number): string => {
       if (end.includes("99.9%")) return "99.9%";
       if (num >= 1000)
         return `${Math.floor(num / 1000)},${String(num % 1000).padStart(
