@@ -115,9 +115,6 @@ export default function LeadScannerLanding() {
               <span className="flex items-center space-x-1 md:space-x-2">
                 <span className="hidden sm:inline">🚀</span>
                 <span className="whitespace-nowrap">Try Demo</span>
-                <span className="bg-yellow-400 text-gray-900 px-1.5 md:px-2 py-0.5 md:py-1 rounded text-[10px] md:text-xs font-extrabold whitespace-nowrap">
-                  FREE
-                </span>
               </span>
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-lg blur opacity-30 group-hover:opacity-100 transition duration-1000"></div>
             </Link>
