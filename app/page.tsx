@@ -104,13 +104,13 @@ export default function LeadScannerLanding() {
           <nav className="flex items-center space-x-2 sm:space-x-4 md:space-x-8">
             <Link
               href="/app/auth?mode=login"
-              className="text-gray-700 hover:text-blue-600 border-2 border-gray-300 hover:border-blue-600 px-3 sm:px-4 md:px-6 py-2 rounded-lg font-medium transition-all duration-200 hover:shadow-md text-sm sm:text-base whitespace-nowrap"
+              className="text-gray-700 hover:text-blue-600 border-2 border-gray-300 hover:border-blue-600 px-2.5 sm:px-3 md:px-4 py-1.5 rounded-lg font-medium transition-all duration-200 hover:shadow-md text-sm sm:text-base whitespace-nowrap"
             >
               Login/Signup
             </Link>
             <Link
               href="/app/dashboard/guest"
-              className="relative bg-gradient-to-r from-blue-600 to-purple-600 text-white px-3 sm:px-4 md:px-8 py-2 md:py-3 rounded-lg font-bold text-sm md:text-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-110 animate-pulse"
+              className="relative bg-gradient-to-r from-blue-600 to-purple-600 text-white px-3 sm:px-4 md:px-5 py-1.5 sm:py-2 rounded-lg font-bold text-sm md:text-lg shadow-lg hover:shadow-2xl transition-all duration-300 hover:scale-110 animate-pulse"
             >
               <span className="flex items-center space-x-1 md:space-x-2">
                 <span className="hidden sm:inline">🚀</span>
