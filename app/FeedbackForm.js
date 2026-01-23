@@ -206,7 +206,7 @@ export const FeedbackForm = () => {
           <p className="text-gray-500 text-sm text-center mt-6">
             Need immediate help? Email{" "}
             <span className="font-semibold text-gray-700">
-              support@repeatly.com
+              feedback@autocardai.app
             </span>
           </p>
         </div>
